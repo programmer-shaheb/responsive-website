@@ -17,7 +17,7 @@
 }
 
 .btn {
-  background-color: #047aed;
+  background-color: #0e2b49;
   color: #ffffff;
   padding: 10px 30px;
   border-radius: 5px;
@@ -194,7 +194,7 @@ img {
 }
 
 .navbar {
-  background-color: #047aed;
+  background-color: #0e2b49;
   height: 70px;
   color: #ffffff;
 }
@@ -251,7 +251,7 @@ img {
 
 .showcase {
   height: 400px;
-  background-color: #047aed;
+  background-color: #0e2b49;
   color: #ffffff;
   position: relative;
 }
@@ -295,7 +295,7 @@ img {
 .stats .grid p {
   font-size: 20px;
   font-weight: bold;
-  color: #047aed;
+  color: #0e2b49;
 }
 
 .stats-heading {
