@@ -1,5 +1,5 @@
-$primary-color: #0e2b49;
-$dark-color: #002240;
+$primary-color: #047aed;
+$dark-color: #0e2b49;
 $secondary-color: #1c3fa8;
 $light-color: #ffffff;
 $success-color: #5cb85c;
@@ -41,6 +41,59 @@ $error-color: #d9534f;
     color: $dark-color;
     border: 1px solid rgb(75, 74, 74);
   }
+}
+
+.bg-primary,
+.btn-primary {
+  background-color: $primary-color;
+  color: #ffffff;
+}
+
+.bg-secondary,
+.btn-secondary {
+  background-color: $secondary-color;
+  color: #fff;
+}
+
+.bg-dark,
+.btn-dark {
+  background-color: $dark-color;
+  color: #fff;
+}
+
+.bg-light,
+.btn-light {
+  background-color: $light-color;
+  color: #333;
+}
+
+.bg-primary a,
+.btn-primary a,
+.bg-secondary a,
+.btn-secondary a,
+.bg-dark a,
+.btn-dark a {
+  color: #fff;
+}
+
+.lead {
+  font-size: 20px;
+}
+
+.sm {
+  font-size: 1rem;
+}
+
+.md {
+  font-size: 2rem;
+}
+
+.lg {
+  font-size: 3rem;
+}
+
+.xl {
+  font-size: 4rem;
 }
 
 .text-center {
