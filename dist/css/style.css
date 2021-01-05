@@ -170,43 +170,43 @@
 }
 
 .py-1 {
-  margin: 1rem 0;
+  padding: 1rem 0;
 }
 
 .py-2 {
-  margin: 1.5rem 0;
+  padding: 1.5rem 0;
 }
 
 .py-3 {
-  margin: 2rem 0;
+  padding: 2rem 0;
 }
 
 .py-4 {
-  margin: 3rem 0;
+  padding: 3rem 0;
 }
 
 .py-5 {
-  margin: 4rem 0;
+  padding: 4rem 0;
 }
 
 .p-1 {
-  margin: 1rem;
+  padding: 1rem;
 }
 
 .p-2 {
-  margin: 1.5rem;
+  padding: 1.5rem;
 }
 
 .p-3 {
-  margin: 2rem;
+  padding: 2rem;
 }
 
 .p-4 {
-  margin: 3rem;
+  padding: 3rem;
 }
 
 .p-5 {
-  margin: 4rem;
+  padding: 4rem;
 }
 
 * {
@@ -375,5 +375,33 @@ img {
 .cloud .grid {
   -ms-grid-columns: 4fr 3fr;
       grid-template-columns: 4fr 3fr;
+}
+
+.languages .flex {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.languages .card {
+  margin: 18px 10px 40px;
+  text-align: center;
+  -webkit-transition: -webkit-transform 0.2s ease-in;
+  transition: -webkit-transform 0.2s ease-in;
+  transition: transform 0.2s ease-in;
+  transition: transform 0.2s ease-in, -webkit-transform 0.2s ease-in;
+}
+
+.languages .card h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.languages .card:hover {
+  -webkit-transform: translateY(-15px);
+          transform: translateY(-15px);
+}
+
+.footer .social a {
+  margin: 0 10px;
 }
 /*# sourceMappingURL=style.css.map */
