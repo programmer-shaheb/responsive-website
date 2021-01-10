@@ -1,13 +1,13 @@
 $primary-color: #047aed;
 $dark-color: #0e2b49;
 $secondary-color: #1c3fa8;
-$light-color: #ffffff;
+$light-color: #f4f4f4;
 $success-color: #5cb85c;
 $error-color: #d9534f;
 
 .card {
-  background-color: $light-color;
-  color: $dark-color;
+  background-color: #fff;
+  color: #333;
   border-radius: 10px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
   padding: 20px;
