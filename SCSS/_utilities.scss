@@ -67,6 +67,22 @@ $error-color: #d9534f;
   color: #333;
 }
 
+.text-primary {
+  color: $primary-color;
+}
+
+.text-secondary {
+  color: $secondary-color;
+}
+
+.text-dark {
+  color: $dark-color;
+}
+
+.text-light {
+  color: $light-color;
+}
+
 .bg-primary a,
 .btn-primary a,
 .bg-secondary a,
@@ -98,6 +114,27 @@ $error-color: #d9534f;
 
 .text-center {
   text-align: center;
+}
+
+.alert {
+  background-color: $light-color;
+  padding: 10px 20px;
+  font-weight: bold;
+  margin: 15px 0;
+
+  i {
+    margin-right: 10px;
+  }
+
+  &-success {
+    background-color: $success-color;
+    color: #fff;
+  }
+
+  &-error {
+    background-color: $error-color;
+    color: #fff;
+  }
 }
 
 .flex {
